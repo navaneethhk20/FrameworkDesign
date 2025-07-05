@@ -30,6 +30,7 @@ public class vwo_test {
         WebElement error_msg = driver.findElement(By.xpath("//div[@id='js-notification-box-msg']"));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='js-notification-box-msg']")));
         Assert.assertEquals(error_msg.getText(),"Your email, password, IP address or location did not match", "error msg is not matching");
+        driver.close();
     }
 
     @Test
@@ -50,6 +51,7 @@ public class vwo_test {
         WebElement dashboard = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[@class=\"page-heading\" and contains(text(), \"Dashboard\")]")));
         wait.until(ExpectedConditions.visibilityOf(dashboard));
         Assert.assertEquals(dashboard.getText(),"Dashboard","dashboard is not visible");
+        driver.close();
 
     }
 }
