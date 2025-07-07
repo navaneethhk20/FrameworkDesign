@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Navaneeth H K/IdeaProjects/FrameworkDesign">
         <classes>
-            <class name="org.example.tests.VWO.vwo_test_POM">
+            <class name="org.example.tests.VWO.vwo_test_POM_PropertiesReader_DriverManager_ImprovedPom">
             </class>
         </classes>
     </test>
