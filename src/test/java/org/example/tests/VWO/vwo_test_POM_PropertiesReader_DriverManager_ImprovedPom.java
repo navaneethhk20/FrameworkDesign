@@ -22,7 +22,6 @@ public class vwo_test_POM_PropertiesReader_DriverManager_ImprovedPom extends Com
         Assert.assertEquals(errorMessage,PropertiesReader.readKey("error_message"), "error msg is not matching");
     }
 
-
     @Test
     @Description("Test case verifies the positive scenario when user name is logged in and we can see his name")
     @Owner("Navaneeth")
